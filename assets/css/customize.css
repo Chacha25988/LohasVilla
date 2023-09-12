@@ -1,0 +1,18 @@
+.card-img rounded-0 img-fluid{
+    height: 424px;
+    width: 308px;
+}
+.img-gg{
+    padding-top: 10px;
+}
+@media (max-width: 480px) {
+    /* mx-5がモバイルでレイアウト崩れの原因になる解除 */
+    .button_padding{
+        padding-bottom: 10px; 
+    }
+  
+    /* px-5がモバイルでレイアウト崩れの原因になる解除 */
+    .p-mobile {
+      padding: 10px !important;
+    }
+  }
